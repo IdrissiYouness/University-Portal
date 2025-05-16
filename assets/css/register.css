@@ -1,0 +1,187 @@
+@import url(./normalize.css);
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    font-family: 'Inter';
+}
+
+body{
+    background-color: #f2e9e9;
+    height: 100dvh;
+}
+
+.container{
+    width: 50%;
+    min-height: 100dvh;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 4px;
+}
+
+
+#names{
+    display: flex;
+    gap: 20px;
+}
+
+h2{
+    padding: 16px 0 16px 0;
+}
+
+
+.btn{
+    border: 0;
+    border-radius: 5px;
+    padding: 8px;
+    cursor: pointer;
+    font-weight: 500;
+    background-color: #cc0c0c;
+    color: white;
+}
+
+.btn:hover{
+    background-color: #9e0404;
+    color: white;
+}
+
+
+.actions-section{
+    gap: 20px;
+    align-items: center;
+    display: flex;
+    margin-top: auto;
+}
+
+
+
+input{
+    border: 0;
+    padding: 8px;
+    outline: 2px solid #333;
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    width: 200px;
+}
+
+.select-list{
+    border: 0;
+    padding: 8px;
+    outline: 2px solid #333;
+    box-sizing: border-box;
+    background-color: white;
+    flex: 0 0 auto;
+    width: 200px;
+}
+
+
+input:focus {
+    outline: 2px solid #cc0c0c;
+}
+
+
+.register-form{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 2em;
+    height: 100%;
+}
+
+
+.star-span{
+    color: #cc0c0c;
+}
+
+.grade-section{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+h5{
+    color: #cc0c0c;
+    padding-left: 4px;
+}
+
+.grade-section>div{
+    display: flex;
+    gap: 10px;
+}
+/*
+.underscore{
+    color: red;
+    font-weight: bolder;
+    padding-left: 2px;
+}
+    */
+h3 {
+    border-left: 4px solid #cc0c0c;
+    padding-left: 5px;
+    margin-bottom: 20px;
+}
+
+.custom-file-input>input{
+    width: 250px;
+    cursor: pointer;
+}
+
+.custom-file-upload {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #cc0c0c;
+    color: white;
+    font-size: 16px;
+    border: black 2px solid;
+    width: 250px;
+  }
+
+
+input[type="file"] {
+    display: none;
+}
+
+.error-message {
+    color: #e74c3c;
+    font-size: 0.85em;
+    margin-top: 5px;
+    display: block;
+}
+
+.input-error {
+    border: 1px solid #e74c3c !important;
+}
+
+a{
+    text-decoration: none;
+    color: #cc0c0c;
+}
+
+a:hover{
+    color: #9e0404;
+}
+
+.upper-form-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.academic-details-section{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.files-container{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}

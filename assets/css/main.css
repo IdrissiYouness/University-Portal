@@ -1,0 +1,113 @@
+@import url(./normalize.css);
+@import url(./colors.css);
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    font-family: 'Inter';
+}
+
+body{
+    display: flex;
+    background-color: #f6f6f6;
+    height: 100dvh;
+    align-items:center;
+}
+
+.portal-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #d63d3d;
+}
+
+.login-container{
+    align-items: center;
+    background-color: #f2e9e9;
+}
+
+.container{
+    width: 50%;
+    min-height: 100dvh;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+}
+
+#names{
+    display: flex;
+}
+
+h2{
+    padding: 16px 0 16px 0;
+}
+
+
+.btn{
+    border: 0;
+    padding: 8px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+
+.btn.login-btn{
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.btn.register-btn{
+    background-color: var(--white-color);
+    color: var(--black-color);
+}
+
+.btn.login-btn:hover{
+    background-color: #8F0808;
+    color: white;
+}
+
+.btn.register-btn:hover{
+    background-color: var(--primary-color);
+    color: white;
+}
+
+input{
+    border: 0;
+    padding: 8px;
+    outline: 2px solid #333;
+    box-sizing: border-box;
+}
+
+input:focus {
+    outline: 2px solid #cc0c0c;
+}
+
+
+.error{
+    color: #cc0c0c;
+    padding: 2px 0 2px 0;
+}
+
+a{
+    text-decoration: none;
+    width: fit-content;
+}
